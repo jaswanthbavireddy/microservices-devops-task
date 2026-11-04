@@ -1,0 +1,18 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; background: #f4f6fb; color: #222; }
+header { background: #1f3a5f; color: #fff; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; }
+header h1 { font-size: 20px; }
+nav a { color: #fff; text-decoration: none; margin-left: 20px; font-size: 15px; }
+nav a:hover { text-decoration: underline; }
+main { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+h2 { margin-bottom: 8px; color: #1f3a5f; }
+p.sub { color: #666; margin-bottom: 20px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.card { background: #fff; border-radius: 10px; padding: 22px; box-shadow: 0 2px 8px rgba(0,0,0,.08); text-decoration: none; color: inherit; }
+.card:hover { transform: translateY(-3px); }
+.card h3 { margin-bottom: 8px; color: #2a6fdb; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+th { background: #2a6fdb; color: #fff; text-align: left; padding: 12px; }
+td { padding: 12px; border-bottom: 1px solid #eee; }
+.badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; background: #e0f3e5; color: #1d7a37; }
+footer { text-align: center; padding: 20px; color: #888; font-size: 13px; }
